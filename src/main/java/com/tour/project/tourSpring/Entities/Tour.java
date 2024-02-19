@@ -27,7 +27,7 @@ public class Tour {
     private String keywords;
 
     @ManyToOne
-    private TourPackage tourPackage;
+    private String tourPackageName;
     @Column
     @Enumerated
     private Difficulty difficulty;
